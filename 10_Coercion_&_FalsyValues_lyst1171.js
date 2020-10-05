@@ -17,3 +17,8 @@ if (2 === user) {
 //and if you write the code as ...
 //console.log('5' + 5)   -->then the output will be "55"
 //this is the core concept of coercion using global contexts.
+
+
+const adder = true + 5
+console.log(adder);
+//true is cosidered as 1 and false is considered as 0
